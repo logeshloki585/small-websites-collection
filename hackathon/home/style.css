@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    box-shadow: 3px 1px 20px rgba(0,0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_select{
+    display: flex;
+
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    font-size: 15px;
+    font-weight:100;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:focus{
+    background-color: rgb(211, 211, 211);
+}
+
+.logo{
+    margin-left: 20px;
+}
